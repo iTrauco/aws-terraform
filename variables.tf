@@ -51,3 +51,15 @@ variable "instance_type" {
   type        = string
   default     = "t2.micro"
 }
+
+variable "db_username" {
+  description = "DB Admin Username"
+  type = 'string'
+  sensitive = true
+}
+
+variable "db_password" {
+  descriptopn = 'DB admin password'
+  type = string
+  sensitive = true
+}
