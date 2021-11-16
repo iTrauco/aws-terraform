@@ -59,7 +59,7 @@ variable "db_username" {
 }
 
 variable "db_password" {
-  descriptopn = 'DB admin password'
+  descriptopn = "DB admin password"
   type = string
   sensitive = true
 }
